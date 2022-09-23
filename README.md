@@ -22,10 +22,10 @@
     • Application (client) ID
     • Directory (tenant) ID
 
-![alt text](/home/renato/Documents/one-drive-uploader-sync/img01.jpg)
+![alt text](./img01.jpg)
 
 ## Then grab the OAuth 2.0 authorization endpoint (v2):
-![alt text](/home/renato/Documents/one-drive-uploader-sync/img02.jpg)
+![alt text](./img02.jpg)
 
 ## 
 
@@ -36,7 +36,7 @@ API permissions → Add a permission → Microsoft APIs → Microsoft Graph → 
 ```
 ##
 
-![alt text](/home/renato/Documents/one-drive-uploader-sync/img03.jpg)
+![alt text](./img03.jpg)
 
 ##
 
@@ -44,7 +44,7 @@ API permissions → Add a permission → Microsoft APIs → Microsoft Graph → 
 
 ### After adding the permissions in Step 3, we have to expose the API and those permissions to the scope:
 
-![alt text](/home/renato/Documents/one-drive-uploader-sync/img04.jpg)
+![alt text](./img04.jpg)
 
 ### Then we need to add the client ID and select the authorized scopes we just added.
 
@@ -52,7 +52,7 @@ API permissions → Add a permission → Microsoft APIs → Microsoft Graph → 
 Expose an API → Add a client application → Enter Client ID → select the Authorized scopes → click add application
 ```
 
-![alt text](/home/renato/Documents/one-drive-uploader-sync/img05.jpg)
+![alt text](./img05.jpg)
 
 ## Step 4: Edit the manifest (Very important to allow Implicit grant):
 
@@ -60,7 +60,7 @@ Expose an API → Add a client application → Enter Client ID → select the Au
 
 ## 
 
-![alt text](/home/renato/Documents/one-drive-uploader-sync/img06.png)
+![alt text](./img06.png)
 
 ##
 ##
@@ -161,7 +161,7 @@ y/e/d> y
 
 ### Open the link in your web browser and click to accept to accept the permissions requested:
 
-![alt text](/home/renato/Documents/one-drive-uploader-sync/img07.jpg)
+![alt text](./img07.jpg)
 
 
 **_NOTE:_**  That rclone runs a webserver on your local machine to collect the token as returned from Microsoft. This only runs from the moment it opens your browser to the moment you get back the verification code. This is on http://127.0.0.1:53682/ and this it may require you to unblock it temporarily if you are running a host firewall.
