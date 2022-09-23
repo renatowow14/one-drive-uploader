@@ -1,4 +1,4 @@
-## There are two major parts to this tutorial:
+## There are four major parts to this tutorial:
 
 1. Create, set up and configure the API on Azure Portal
 2. Download and install Rclone on your operating system
