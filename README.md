@@ -2,7 +2,7 @@
 
 1. Create, set up and configure the API on Azure Portal
 2. Download and install Rclone on your operating system
-3. Getting a token from Microsoft which you need to do in your browser. rclone config walks you through it.
+3. Getting a token from Microsoft which you need to do in your browser. ```rclone config```walks you through it.
 4. Test and upload a test file or folder
 
 ## Part 1 - Create, set up and configure the API on Azure Portal
