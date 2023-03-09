@@ -65,6 +65,14 @@ Expose an API → Add a client application → Enter Client ID → select the Au
 ##
 ##
 
+## 
+
+![alt text](./img08.png)
+
+##
+##
+
+
 ## Part 2 - Download and install Rclone on your operating system:
 
 * [Rclone Official WebSite](https://rclone.org/downloads/) 
