@@ -67,6 +67,8 @@ Expose an API → Add a client application → Enter Client ID → select the Au
 
 ## 
 
+## Step 5: add redirect url, This is a very important step 
+
 ![alt text](./img08.png)
 
 ##
